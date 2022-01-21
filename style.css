@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic', 'Georgia';
+}
+
+/* navigasi */
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    line-height: 80px;
+    position: static;
+    background: #1E2133;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    font-family: 'Georgia';
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #FF4753 ;
+    
+}
+
+/* beranda */
+
+#Page1 {
+    background-color: #222438;
+    position: relative;
+    margin: auto;
+    display: flex;
+    height: 580px;
+}
+
+.deskripsi1 {
+    width: 450px;
+    margin: 180px 0 0 220px;
+    padding-right: 100px;
+
+}
+
+.deskripsi1 h2 {
+    font-family: 'Franklin Gothic';
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    line-height: 50px;
+}
+
+.deskripsi1 .des {
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: 'Georgia';
+    text-align: justify;
+    color: #FF4753 ;
+}
+
+.deskripsi1 .des2 {
+    font-size: 15px;
+    font-family: 'Georgia';
+    text-align: justify;
+    color: white ;
+    padding-bottom: 30px;
+}
+
+.gambar1 {
+    width: 500px;
+    height: 550px;
+    margin-top: 30px;
+}
+
+#img1 {
+    width: 400px;
+    height: 550px;
+}
+
+a.btn1 {
+    position: relative;
+    background: #FF4753;
+    font-family: 'Franklin Gothic';
+    font-size: 15px;
+    padding: 15px 20px;
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Tentang */
+
+#Page2 {
+    background-color: #1E2133;
+    position: relative;
+    margin: auto;
+    display: flex;
+    height: 500px;
+}
+
+.judul {
+    margin: 80px 0 0 220px;
+}
+
+.judul .Tentang {
+    font-family: 'Franklin Gothic';
+    color: white;
+    font-size: 30px;
+}
+
+.judul hr {
+    width: 30px;
+    border-color: #FF4753;
+}
+
+.gambar2 {
+    width: 250px;
+    height: 250px;
+    padding-top: 35px;
+}
+
+#img2 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #000814;
+}
+
+.deskripsi2 {
+    margin: 170px 0 0 30px;
+    width: 50%;
+}
+
+.deskripsi2 h3 {
+    font-family: Georgia;
+    color: white;
+    font-size: 25px;
+}
+
+.deskripsi2 .atas {
+    color: #FF4753;
+    font-family: 'Franklin Gothic';
+    font-size: small;
+    padding-top: 2px;
+}
+
+.deskripsi2 .desk {
+    color: white;
+    font-family: 'Georgia';
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.deskripsi2 .btn2 {
+    position: relative;
+    background: #FF4753;
+    font-family: 'Franklin Gothic';
+    font-size: 15px;
+    padding: 15px 20px;
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Portofolio */
+
+#Page3 {
+    background-color: #222438;
+    width: 100%;
+    display: flex;
+    height: 700px;
+}
+
+.judul2 {
+    position: absolute;
+    margin: 100px 0 0 550px;
+}
+
+.judul2 h2 {
+    color: white;
+}
+
+.judul2 hr {
+    border-color: #FF4753;
+    width: 30px;
+}
+
+/**Gambar**/
+
+
+.foto1 {
+    position: absolute;
+    margin: 160px 0 0 500px;
+}
+
+.foto1 #gambar3 {
+    width: 250px;
+    height: 120px;
+}
+
+.foto2 {
+    position: absolute;
+    margin: 100px 0 0 765px;
+}
+
+.foto2 #gambar4 {
+    width: 150px;
+    height: 220px;
+}
+
+.foto3 {
+    position: absolute;
+    margin: 295px 0 0 500px;
+}
+
+.foto3 #gambar5 {
+    width: 119px;
+    height: 119px;
+}
+
+.foto4 {
+    position: absolute;
+    margin: 295px 0 0 630px;
+}
+
+.foto4 #gambar6 {
+    width: 119px;
+    height: 119px;
+}
+
+.foto5 {
+    position: absolute;
+    margin: 334px 0 0 765px;
+}
+
+.foto5 #gambar7 {
+    width: 150px;
+    height: 80px;
+}
+
+.foto6 {
+    position: absolute;
+    margin: 425px 0 0 500px;
+}
+
+.foto6 #gambar8 {
+    width: 210px;
+    height: 120px;
+}
+
+.foto7 {
+    position: absolute;
+    margin: 425px 0 0 725px;
+}
+
+.foto7 #gambar9 {
+    width: 190px;
+    height: 120px;
+}
+#Page3 .btn3 {
+    position: absolute;
+    background: #FF4753;
+    font-family: 'Franklin Gothic';
+    font-size: 15px;
+    padding: 15px 20px;
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+    margin: 560px 0 0 760px;
+    text-decoration: none;
+}
+
+/**Footer**/
+
+#Footer {
+    background-color: #1E2133;
+    position: relative;
+    margin: auto;
+    display: flex;
+    height: 300px;
+}
+
+.menufooter {
+    margin: 90px 0 0 150px;
+}
+
+.menufooter li {
+    padding-bottom: 25px;
+    list-style: none;
+}
+
+.menufooter li a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menufooter li a:hover {
+    color: #FF4753;
+}
+
+.menufooter2 {
+    margin: 50px 0 0 200px;
+}
+
+.menufooter2 .footer1 {
+    font-family: 'Georgia';
+    color: white;
+    font-size: 30px;
+    margin-left: 230px;
+}
+
+.menufooter2 hr {
+    margin: auto;
+    width: 600px;
+    margin-top: 80px;
+    border-color: #FF4753;
+}
+
+.menufooter2 .cr {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 10px;
+}
+
+.button {
+    position: absolute;
+    margin: 110px 0 0 650px;   
+}
+
+.button .fa {
+    padding-right: 30px;
+}
+
+.button .fa-instagram {
+    color: #FF4753;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.button .fa-facebook {
+    color: #FF4753;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.button .fa-twitter {
+    color: #FF4753;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menufooter3 {
+    margin: 110px 0 0 100px;
+}
+
+.menufooter3 p {
+    padding-bottom: 20px;
+    color: white;
+    text-align: right;
+}
+
+
+
+  
